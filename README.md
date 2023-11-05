@@ -8,5 +8,7 @@ https://debug.openaiken.net/2023/yubico-authenticator-linux-without-package-mana
 
 Basically, the most updated version of this app isn't in the Arch-based package repos, so this was my workaround.
 
+**Make sure you install required dependencies.**
+
 ### Notes
 These scripts are barebones and devoid of fancy bash tricks and "best practices". It's idempotent... but I could have made the code more dynamic, better at handling errors, have a config file, etc. Works though. :)
