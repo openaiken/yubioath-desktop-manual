@@ -8,7 +8,7 @@ OUTDIR=yubi-auth-files
 pkill -f yubico
 
 curl -L $URL -o $DIR/$FILENAME
-mkdir $DIR/$OUTDIR
+mkdir -p $DIR/$OUTDIR
 tar --overwrite -xzf $DIR/$FILENAME -C $OUTDIR --strip-components 1
 sudo chown root:root $DIR/$OUTDIR/authenticator
 sudo chmod 755 $DIR/$OUTDIR/authenticator
